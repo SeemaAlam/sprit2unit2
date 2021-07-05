@@ -1,0 +1,112 @@
+
+
+main .row1{
+  background-color:aliceblue; 
+  padding-top: 10px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 720px;
+}
+.row1>.scholership{
+    width: 350px;
+    height:100px;
+    margin: 20 px;
+    float:left;
+    margin:10px;
+    border-radius:10px ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top:10px;
+    text-align: center;
+}
+.circle{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.side{
+    float: left;
+}
+.side>.para{
+ font-size: 25px;
+}
+
+#scholership1{
+  background-color:rgb(211, 211, 62);
+}
+#scholership2{
+    background-color:blue;
+  }
+  #scholership3{
+    background-color:mediumturquoise;
+  }
+  .row2{ 
+    text-align: center;
+  }
+  .program{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .popular{
+     color: rgb(44, 44, 114); 
+     font-size: 40px;
+     font-weight: bolder;
+  }
+.items{
+    float:left;
+    background-color:aliceblue; 
+    padding:5px;
+    width: 120px;
+}
+.items:nth-child(1){
+    background-color: cyan;
+    color: white;
+}
+.programItems{ 
+    display:grid;
+    justify-content: center;
+    clear: both;
+    grid-template-columns:auto auto auto;
+}
+.img{
+width: 400px;
+margin: 10px;
+margin-top: 50px;
+padding-left:10px;
+background-color:aliceblue; 
+}
+#dummytext{
+    color:rgb(108, 106, 106);
+}
+.img>input{
+    color: cyan;
+    border-color: cyan;
+    width: 180px;
+    height:40px;
+}
+
+@media(max-width:1024px) {
+    .programItems{
+        grid-template-columns:auto auto auto;
+      }
+}
+@media(max-width:720px) {
+    .programItems{
+        grid-template-columns:auto auto;
+      }
+}
+@media(max-width:480px) {
+    .programItems{
+        grid-template-columns:auto;
+      }
+}
+
